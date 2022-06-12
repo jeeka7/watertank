@@ -29,10 +29,6 @@ def RemoveZeroes():
 
 RemoveZeroes()
 
-def PrintKnownPipes():
-  for pipe in time_taken:
-PrintKnownPipes()    
-    
 lcm = NonZeroPipes[0]
 for i in NonZeroPipes[1:]:
   lcm = int(lcm*i/gcd(lcm, i))
