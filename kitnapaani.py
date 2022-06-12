@@ -31,8 +31,7 @@ RemoveZeroes()
 
 def PrintKnownPipes():
   for pipe in time_taken:
-
-  PrintKnownPipes()    
+PrintKnownPipes()    
     
 lcm = NonZeroPipes[0]
 for i in NonZeroPipes[1:]:
