@@ -20,7 +20,7 @@ time_taken = [pipe1,pipe2,pipe3,pipe1_2,pipe2_3,pipe3_1,pipe1_2_3]
 
 NonZeroPipes = []
 
-st.write(type(time_taken))
+st.write(type(pipe1))
 
 RemoveZeroes()
 def PrintKnownPipes():
