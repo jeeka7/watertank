@@ -20,9 +20,6 @@ time_taken = [pipe1,pipe2,pipe3,pipe1_2,pipe2_3,pipe3_1,pipe1_2_3]
 
 NonZeroPipes = []
 
-st.write(type(pipe1))
-
-
 def RemoveZeroes():
   for pipe in time_taken:
     if (pipe == 0):
@@ -31,9 +28,9 @@ def RemoveZeroes():
       NonZeroPipes.append(pipe)
 
 RemoveZeroes()
+
 def PrintKnownPipes():
   for pipe in time_taken:
-    st.write(pipe)
 
 PrintKnownPipes()    
     
@@ -42,3 +39,4 @@ for i in NonZeroPipes[1:]:
   lcm = int(lcm*i/gcd(lcm, i))
   
 st.write("capacity of tank is ", lcm)
+st.write("work is using ibuilt module",math.lcm(NonZeroPipes))
