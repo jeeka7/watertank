@@ -39,3 +39,19 @@ for i in NonZeroPipes[1:]:
   lcm = int(lcm*i/gcd(lcm, i))
   
 st.write("capacity of tank is ", lcm)
+work=lcm
+
+e1=work/pipe1
+e2=work/pipe2
+e3=work/pipe3
+
+
+st.write("time taken by pipe 1 to alone fill the tank is ",work/e1)
+st.write("time taken by pipe 2 to alone fill the tank is ",work/e2)
+st.write("time taken by pipe 3 to alone fill the tank is ",work/e3)
+
+st.write("time taken by pipe 1 and pipe 2 together to fill the tank is ",work/(e1+e2))
+st.write("time taken by pipe 2 and pipe 3 together to fill the tank is ",work/(e2+e3))
+st.write("time taken by pipe 3 and pipe 1 together to fill the tank is ",work/(e1+e3))
+
+st.write("time taken by all 3 pipe to fill the tank is ",work/(e1+e2+e3)
