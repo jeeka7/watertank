@@ -23,4 +23,4 @@ list1 = [12,48,8,60]
 lcm = list1[0]
 for i in list1[1:]:
   lcm = int(lcm*i/gcd(lcm, i))
-print("least common multiple =  ", lcm)
+st.write("least common multiple =  ", lcm)
