@@ -45,13 +45,18 @@ e1=work/pipe1
 e2=work/pipe2
 e3=work/pipe3
 
+e12=work/(pipe1+pipe2)
+e23=work/(pipe2+pipe3)
+e13=work/(pipe1+pipe3)
+
+e123=work/(pipe1+pipe2+pipe3)
 
 st.write("time taken by pipe 1 to alone fill the tank is ",work/e1)
 st.write("time taken by pipe 2 to alone fill the tank is ",work/e2)
 st.write("time taken by pipe 3 to alone fill the tank is ",work/e3)
 
-st.write("time taken by pipe 1 and pipe 2 together to fill the tank is ",work/(e1+e2))
-st.write("time taken by pipe 2 and pipe 3 together to fill the tank is ",work/(e2+e3))
-st.write("time taken by pipe 3 and pipe 1 together to fill the tank is ",work/(e1+e3))
+st.write("time taken by pipe 1 and pipe 2 together to fill the tank is ",work/(e12))
+st.write("time taken by pipe 2 and pipe 3 together to fill the tank is ",work/(e23))
+st.write("time taken by pipe 3 and pipe 1 together to fill the tank is ",work/(e13))
 
-st.write("time taken by all 3 pipe to fill the tank is ",work/(e1+e2+e3))
+st.write("time taken by all 3 pipe to fill the tank is ",work/(e123))
