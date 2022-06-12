@@ -35,5 +35,6 @@ e2_3 = e2 + e3
 e3_1 = e3 + e1
 
 pipe1 = work / e1
+st.write (" time taken by first pipe is ",pipe1) 
 pipe2 = work / e2
 pipe3 = work / e3
