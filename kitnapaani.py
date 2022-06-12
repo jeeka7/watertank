@@ -54,4 +54,4 @@ st.write("time taken by pipe 1 and pipe 2 together to fill the tank is ",work/(e
 st.write("time taken by pipe 2 and pipe 3 together to fill the tank is ",work/(e2+e3))
 st.write("time taken by pipe 3 and pipe 1 together to fill the tank is ",work/(e1+e3))
 
-st.write("time taken by all 3 pipe to fill the tank is ",work/(e1+e2+e3)
+st.write("time taken by all 3 pipe to fill the tank is ",work/(e1+e2+e3))
