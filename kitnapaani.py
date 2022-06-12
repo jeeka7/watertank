@@ -25,7 +25,7 @@ st.write(type(pipe1))
 
 def RemoveZeroes():
   for pipe in time_taken:
-    if (pipe == 0);
+    if (pipe == 0):
       pass
     else:
       NonZeroPipes.append(pipe)
