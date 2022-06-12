@@ -16,3 +16,11 @@ pipe1_2_3 = st.slider("All 3 pipes",0,30,0)
 work = math.lcm(pipe1,pipe2,pipe3,pipe1_2,pipe2_3,pipe3_1)
 
 st.write("capacity of tank is ", work)
+
+
+from math import gcd
+list1 = [12,48,8,60]  
+lcm = list1[0]
+for i in list1[1:]:
+  lcm = int(lcm*i/gcd(lcm, i))
+print("least common multiple =  ", lcm)
