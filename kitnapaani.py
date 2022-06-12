@@ -15,4 +15,4 @@ pipe1_2_3 = st.slider("All 3 pipes",0,30,0)
 
 work = math.lcm(pipe1,pipe2,pipe3,pipe1_2,pipe2_3,pipe3_1)
 
-st.write("capacity of tank is ")
+st.write(f"capacity of tank is {} ", work)
