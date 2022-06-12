@@ -1,3 +1,6 @@
+import streamlit as st
+import math
+
 st.write("Enter the Time taken by each pipe in same units")
 
 pipe1 = st.slider("Pipe 1",0,30,0)
