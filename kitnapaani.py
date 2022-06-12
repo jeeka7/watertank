@@ -22,6 +22,14 @@ NonZeroPipes = []
 
 st.write(type(pipe1))
 
+
+def RemoveZeroes():
+  for pipe in time_taken:
+    if (pipe == 0);
+      pass
+    else:
+      NonZeroPipes.append(pipe)
+
 RemoveZeroes()
 def PrintKnownPipes():
   for pipe in time_taken:
