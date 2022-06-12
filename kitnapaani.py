@@ -41,7 +41,11 @@ for i in NonZeroPipes[1:]:
 st.write("capacity of tank is ", lcm)
 work=lcm
 
-e1=work/pipe1
+try:
+  e1=work/pipe1
+except ZeroDivisionError:
+  pass
+
 e2=work/pipe2
 e3=work/pipe3
 
