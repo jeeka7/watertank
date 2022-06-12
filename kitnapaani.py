@@ -39,4 +39,3 @@ for i in NonZeroPipes[1:]:
   lcm = int(lcm*i/gcd(lcm, i))
   
 st.write("capacity of tank is ", lcm)
-st.write("work is using ibuilt module",math.lcm(NonZeroPipes))
